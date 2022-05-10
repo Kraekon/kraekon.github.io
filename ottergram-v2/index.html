@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ottergram v2</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+    <h1 class="logo-header">Ottergram v2</h1>
+    <p>The super-pimped version of ottergram</p>
+  </header>
+
+  <main class="main-content">
+    <ul class="thumbnail-list">
+      <li class="thumbnail-item">
+        <a href="img/otter1.jpg" data-image-role="trigger"
+                                 data-image-title="Hello!"
+                                 data-image-subtitle="My name is Joe"
+                                 data-image-url="img/otter1.jpg">
+          <figure>
+            <img src="img/otter1.jpg" class="thumbnail-image" alt="Image of Joe the otter" />
+            <figcaption class="thumbnail-title">Joe</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter2.jpg" data-image-role="trigger"
+                                 data-image-title="Hola!"
+                                 data-image-subtitle="My name is Diego"
+                                 data-image-url="img/otter2.jpg">
+          <figure>
+            <img src="img/otter2.jpg" class="thumbnail-image" alt="Image of Diego the otter" />
+            <figcaption class="thumbnail-title">Diego</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter3.jpg" data-image-role="trigger"
+                                 data-image-title="Hej!"
+                                 data-image-subtitle="My name is Åke"
+                                 data-image-url="img/otter3.jpg">
+          <figure>
+            <img src="img/otter3.jpg" class="thumbnail-image" alt="Image of Åke the otter" />
+            <figcaption class="thumbnail-title">Åke</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter4.jpg" data-image-role="trigger"
+                                 data-image-title="Ni-hao!"
+                                 data-image-subtitle="Our names are Wang and Zhang"
+                                 data-image-url="img/otter4.jpg">
+          <figure>
+            <img src="img/otter4.jpg" class="thumbnail-image" alt="Image of Wang and Zhang" />
+            <figcaption class="thumbnail-title">Wang & Zhang</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="img/otter5.jpg" data-image-role="trigger"
+                                 data-image-title="Bonjour!"
+                                 data-image-subtitle="My name is Jacques"
+                                 data-image-url="img/otter5.jpg">
+          <figure>
+            <img src="img/otter5.jpg" class="thumbnail-image" alt="Image of Jacques the otter" />
+            <figcaption class="thumbnail-title">Jacques</figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="thumbnail-item">
+        <a href="#" data-image-role="random">
+          <div id="random-thumbnail-frame">
+            <div class="thumbnail-image" alt="Random otter">Random otter</div>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <figure class="detail-image-container">
+      <div class="detail-image-frame">
+        <img src="img/otter1.jpg" class="detail-image" alt="Image of first otter" data-image-role="target" />
+        <figcaption class="detail-image-title" data-image-role="title"><h2>Hello!</h2><p>My name is Joe</p></figcaption>
+      </div>
+      </figure>
+
+  </main>
+  <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>
